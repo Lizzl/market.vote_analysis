@@ -1,5 +1,5 @@
 # Raised to the Power 
-## A review of finance.vote's usage of quadratic voting mechanism for predicting crypto markets.
+## A review of finance.vote's usage of quadratic voting mechanism for predicting crypto markets
 
 
 ## Project Intro/Objective
@@ -15,15 +15,15 @@ This report analyses the information that was compiled from those votes. The mai
 *What is the predictive power of markets.vote?
 
 
-**Some more background information on markets.vote**
+##Some more background information on markets.vote:**
 
-## What is Quadratic Voting
+**What is Quadratic Voting**
 Quadratic Voting is a method of collective decision-making in which a participant votes not just for or against an issue, but also expresses how strongly they feel about it. It can help protect the interests of small groups of voters that care deeply about particular issues. 
 
 In Quadratic Voting, each participant is given a number of credits that can be used to vote for an issue. However, the cost of casting more than one vote for an issue is quadratic, not linear. So, the marginal cost of each additional vote is far higher than of the previous vote.
 towardsdatascience.com(https://towardsdatascience.com/what-is-quadratic-voting-4f81805d5a06)
 
-## How does markets.vote work
+**How does markets.vote work**
 Users are incentives to make market predictions in a series of tournaments focussed on a basket of crypto assets. 
 
 Quadratic voting is used to generate a consensus in a perceived future market order. Users then spend a budget of vote power to create a new order, based on their perception of token quality and future potential market performance.Users are rewarded with a proportional share of a network generated reward pool depending on the proportionality of their correctness. Users can amplify their vote power beyond the starting level by demonstrating a history of correct decision making in the markets, or by purchasing more identities.
@@ -31,11 +31,26 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 
 
 ### Description of the Data
+voice-data.csv
+***voiceCredits*** - the amount of voting power accumulated
+***voterID*** - unique number for each finance.vot identity
 
+winner-data.csv
+***roundid*** - number of rounds
+***winnerindex*** - top-voted coin in that round, coins are indexed according to their position in the voting table
 
+voter-count.csv
+***voterIds*** - the number of identities each wallet minted
+***owner*** - wallet addresse
 
-***Transfer Date*** - 
-
+vote-data.csv
+***roundid*** - number of rounds
+***voterID*** - unique number for each finance.vot identity
+***choices*** - index of the coins that were picked in each vote, the index is similiar to winnerindex, each coin is indexed according to its position in the voting table
+***weights*** - the combination that was picked to weight the respective votes, per default users have 100$V (voting power). The amount of $V spent is the square of the weights
+***voiceCreditsused*** - the amout of voting power spent
+***choicesmade*** - total number of choices made
+***currentVoiceCredits*** - total of voting power user holds at moment of vote
 
 
 ### Methods Used
@@ -47,7 +62,7 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 * SQL
 * Dune Dashboard
 * Excel
-* Pandas, jupyter
+* Pandas,jupyter
 
 
 ## Featured Notebooks/Analysis/Deliverables
