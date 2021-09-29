@@ -2,7 +2,7 @@
 ## A review of finance.vote's usage of quadratic voting mechanism for predicting crypto markets
 
 
-## Project Intro/Objective
+### Project Intro/Objective
 With the aim of building the foundation of a decentralised decision making and will upgrade the governance capabilities of the whole crypto space as a whole, [finance.vote](https://www.finance.vote) is developing future infrastructure for decentraized autnomous organizations DAOs. Over the past years plenty of these dApps have been launched and tested. The first building block of this new governnce architecture has been the voting markets. 
 
 [markets.vote](https://marketsdotvote.eth.link/#/) is a prediction market and collective intelligence tool, which uses quadratic voting and a decentralised identity system to curate emerging markets and reach consensus on the perceived future performance of assets. Since October 2020, users have voted over 37 rounds to predict the market performance of Defi tokens using a new voting mechanism called Quadratic Voting. 
@@ -15,7 +15,7 @@ This report analyses the information that was compiled from those votes. The mai
 *What is the predictive power of markets.vote?
 
 
-##Some more background information on markets.vote:**
+### Some more background information on markets.vote:**
 
 **What is Quadratic Voting**
 Quadratic Voting is a method of collective decision-making in which a participant votes not just for or against an issue, but also expresses how strongly they feel about it. It can help protect the interests of small groups of voters that care deeply about particular issues. 
