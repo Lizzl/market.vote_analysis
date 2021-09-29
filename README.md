@@ -66,9 +66,9 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* Clean Datasets as CSV 
+* [Clean Datasets as CSV](https://github.com/Lizzl/market.vote_analysis)
 * [SQL Queries](https://github.com/Lizzl/market.vote_analysis/blob/main/voting_markets_EDA.sql)
-* Report
+* [Report](https://cryptpad.fr/file/#/2/file/CEkavekX8koJowgJHwiLTWFA/)
 * Dune Dashboard 
 
 
