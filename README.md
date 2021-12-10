@@ -31,19 +31,26 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 
 
 ### Description of the Data
-[voice-data.csv](https://github.com/Lizzl/market.vote_analysis/blob/main/voice-data.csv)
+[voice-data_ETH-52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/voice-data_ETH_52.csv)
+[voice-data_BSC-30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
 ***voiceCredits*** - the amount of voting power accumulated
 ***voterID*** - unique number for each finance.vot identity
+Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
-[winner-data.csv](https://github.com/Lizzl/market.vote_analysis/blob/main/winner-data.csv)
-***roundid*** - number of rounds
+[Marketwinner_ETH.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Marketwinner_ETH.csv)
+[Marketwinner_BSC.csv](https://github.com/datadeo/market.vote_analysis/blob/main/market_winner_bsc.csv)
+***round*** - completed round
 ***winnerindex*** - top-voted coin in that round, coins are indexed according to their position in the voting table
+Both datasets are for 30 rounds
 
-[voter-count.csv](https://github.com/Lizzl/market.vote_analysis/blob/main/voter-count.csv)
+[ID_per_wallet_ETH_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_ETH_30.xml)
+[ID_per_wallet_BSC_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_BSC_30.xml)
 ***voterIds*** - the number of identities each wallet minted
-***owner*** - wallet addresse
+***coin*** - winning coin
+Snapshot taken after 30 rounds
 
-[vote-data.csv](https://github.com/Lizzl/market.vote_analysis/blob/main/vote-data.csv)
+[vote-data_ETH_52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/vote-data_ETH_52.csv)
+[vote-data_BSC_30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
 ***roundid*** - number of rounds
 ***voterID*** - unique number for each finance.vot identity
 ***choices*** - index of the coins that were picked in each vote, the index is similiar to winnerindex, each coin is indexed according to its position in the voting table
@@ -51,7 +58,7 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 ***voiceCreditsused*** - the amout of voting power spent
 ***choicesmade*** - total number of choices made
 ***currentVoiceCredits*** - total of voting power user holds at moment of vote
-
+Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
 ### Methods Used
 * Descriptive Statistics
