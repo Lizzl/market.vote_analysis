@@ -31,25 +31,25 @@ Quadratic voting is used to generate a consensus in a perceived future market or
 
 
 ### Description of the Data
-[voice-data_ETH-52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/voice-data_ETH_52.csv)
+[voice-data_ETH-52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/voice-data_ETH_52.csv) ,
 [voice-data_BSC-30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
 ***voiceCredits*** - the amount of voting power accumulated
 ***voterID*** - unique number for each finance.vot identity
 Data for 52 Rounds on ETH Mainnet and 30 Rounds on BSC
 
-[Marketwinner_ETH.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Marketwinner_ETH.csv)
+[Marketwinner_ETH.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Marketwinner_ETH.csv) ,
 [Marketwinner_BSC.csv](https://github.com/datadeo/market.vote_analysis/blob/main/market_winner_bsc.csv)
 ***round*** - completed round
 ***winnerindex*** - top-voted coin in that round, coins are indexed according to their position in the voting table
 Both datasets are for 30 rounds
 
-[ID_per_wallet_ETH_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_ETH_30.xml)
+[ID_per_wallet_ETH_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_ETH_30.xml) ,
 [ID_per_wallet_BSC_30.xml](https://github.com/datadeo/market.vote_analysis/blob/main/ID_per_wallet_BSC_30.xml)
 ***voterIds*** - the number of identities each wallet minted
 ***coin*** - winning coin
 Snapshot taken after 30 rounds
 
-[vote-data_ETH_52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/vote-data_ETH_52.csv)
+[vote-data_ETH_52.csv](https://github.com/datadeo/market.vote_analysis/blob/main/vote-data_ETH_52.csv) ,
 [vote-data_BSC_30.csv](https://github.com/datadeo/market.vote_analysis/blob/main/Vote-Data_BSC_30.csv)
 ***roundid*** - number of rounds
 ***voterID*** - unique number for each finance.vot identity
