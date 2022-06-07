@@ -9,10 +9,10 @@ With the aim of building the foundation of a decentralised decision making and w
 
 This report analyses the information that was compiled from those votes. The main questions answered are:
 
-*How did users interact with the platform?
-*How did voters apply Quadratic Voting? 
-*What makes a user a successful predictor?
-*What is the predictive power of markets.vote?
+* How did users interact with the platform?
+* How did voters apply Quadratic Voting? 
+* What makes a user a successful predictor?
+* What is the predictive power of markets.vote?
 
 
 ### Some more background information on markets.vote:**
